@@ -5,7 +5,7 @@ import {
   // FaBehance,
   FaGithub,
   // FaInstagram,
-  FaFacebook,
+  // FaFacebook,
 } from 'react-icons/fa';
 import getProfileData from '../data/data';
 
@@ -37,7 +37,7 @@ const Socials = (props:ISocialsProps) => {
     <>
       {getSocialData('Github', <FaGithub />)}
       {getSocialData('LinkedIn', <FaLinkedinIn />)}
-      {getSocialData('Facebook', <FaFacebook />)}
+      {/* {getSocialData('Facebook', <FaFacebook />)} */}
       {/* {getSocialData('Instagram', <FaInstagram />)} */}
       {/* {getSocialData('Behance', <FaBehance />)} */}
     </>
