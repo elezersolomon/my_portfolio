@@ -130,7 +130,7 @@ const profile : IProfile = {
     },
   ],
   email: 'elezersolomon2@gmail.com',
-  bio: ['I am a dedicated full-stack developer, I have gained skills in using different tech stacks such as MERN stack and other advanced new technologies that helped me to gain Experience in both front-end and back-end development, learn database creation and integration, and learn the concept of API and microservices. I also worked on CI/Cd layout using GitHub workflow, circle ci, Heroku, and AWS services. In addition to that, I have gained good experience in Infrastructure as a code with AWS CDK.'],
+  bio: ['I am a dedicated full-stack developer who have gained skills in using different tech stacks such as MERN stack that helped me to gain Experience in both front-end and back-end development, learn database creation and integration, and learn the concept of rest APIs and microservices. In the DevOps section I considerable amount of experience in CI/Cd layout using GitHub workflow, circle ci, Heroku, and great experience in AWS services and Infrastructure as a code with AWS CDK.'],
   skills: {
     languages: ['Javascript, SQL, PHP, HTML, CSS, XML, YAML.'],
     frameworks: ['NextJs, React, materialUI, NodeJS, GraphQL, canary deployments), kotlin.'],
