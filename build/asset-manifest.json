@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2fb547b0.chunk.css",
+    "main.js": "/static/js/main.d302a354.chunk.js",
+    "main.js.map": "/static/js/main.d302a354.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a2b32bf2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a2b32bf2.js.map",
+    "static/css/2.4c34b247.chunk.css": "/static/css/2.4c34b247.chunk.css",
+    "static/js/2.c5acfdfc.chunk.js": "/static/js/2.c5acfdfc.chunk.js",
+    "static/js/2.c5acfdfc.chunk.js.map": "/static/js/2.c5acfdfc.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.4c34b247.chunk.css.map": "/static/css/2.4c34b247.chunk.css.map",
+    "static/css/main.2fb547b0.chunk.css.map": "/static/css/main.2fb547b0.chunk.css.map",
+    "static/js/2.c5acfdfc.chunk.js.LICENSE.txt": "/static/js/2.c5acfdfc.chunk.js.LICENSE.txt",
+    "static/media/SpaceXLogo.e95972d6.jpg": "/static/media/SpaceXLogo.e95972d6.jpg",
+    "static/media/avatar.eaf7790e.jpeg": "/static/media/avatar.eaf7790e.jpeg",
+    "static/media/banner.6e1ab88a.jpeg": "/static/media/banner.6e1ab88a.jpeg",
+    "static/media/metroBackground.d3212f5a.jpg": "/static/media/metroBackground.d3212f5a.jpg",
+    "static/media/muluG_background.5eda75c5.jpg": "/static/media/muluG_background.5eda75c5.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2b32bf2.js",
+    "static/css/2.4c34b247.chunk.css",
+    "static/js/2.c5acfdfc.chunk.js",
+    "static/css/main.2fb547b0.chunk.css",
+    "static/js/main.d302a354.chunk.js"
+  ]
+}
