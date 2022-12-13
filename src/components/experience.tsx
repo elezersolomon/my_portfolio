@@ -1,4 +1,7 @@
 /* eslint-disable no-use-before-define */
+import {
+  AiFillLinkedin,
+} from 'react-icons/ai';
 import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import getProfileData, { IExperience } from '../data/data';
@@ -48,6 +51,9 @@ const ExperienceCard = (props:{cardData:IExperience;isVisible:boolean}) => {
           {cardData.shortName}
         </span> */}
       </h5>
+      <a style={{ backgroundColor: "white" }} href={cardData.website}>
+        { cardData.website ? <AiFillLinkedin color="black" size={20} /> : null}
+      </a>
       {cardData.startDate !== ''
       && (
         <p>

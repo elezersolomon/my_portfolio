@@ -14,11 +14,11 @@
     "sourceType": "module"
   },
   "rules": {
-    "linebreak-style":0,
+    "linebreak-style": 0,
     "quotes": ["off", "single"],
-    "semi": ["error", "always"],
-    "@typescript-eslint/indent": ["error", 2],
-    "no-multi-spaces": ["error"],
+    "semi": ["off", "always"],
+    "@typescript-eslint/indent": ["off", 2],
+    "no-multi-spaces": ["off"],
     "react/jsx-filename-extension": [
       1,
       {

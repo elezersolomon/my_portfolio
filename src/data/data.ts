@@ -165,7 +165,8 @@ const profile: IProfile = {
       startDate: "Nov 2020",
       summary:
         "Start-up E-commerce platform development with NextJS.● Backend application development with NodeJS, GraphQL, MySQL.",
-      website: "https://www.linkedin.com/company/curemd/",
+      website:
+        "https://www.linkedin.com/company/hurricane-support/?originalSubdomain=et",
     },
     {
       shortName: "Freelance",
@@ -175,7 +176,7 @@ const profile: IProfile = {
       startDate: "Mar 2020",
       summary:
         "While working as an Assistant Software Engineer, my responsibilities included the Platform-independence of Reports module in cross-browser environments by converting ASP Classic pages to ASP .NET Web Forms & VB Scripts to JavaScript/JQuery.",
-      website: "https://www.linkedin.com/company/curemd/",
+      website: "",
     },
   ],
   certifications: [
