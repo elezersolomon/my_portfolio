@@ -1,7 +1,7 @@
 {
   "name": "ElezerSolomon",
   "description": "Personal Portfolio",
-  "homepage": "http://localhost:3000",
+  "homepage": "",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
