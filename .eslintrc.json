@@ -15,7 +15,7 @@
   },
   "rules": {
     "linebreak-style":0,
-    "quotes": ["error", "single"],
+    "quotes": ["off", "single"],
     "semi": ["error", "always"],
     "@typescript-eslint/indent": ["error", 2],
     "no-multi-spaces": ["error"],
