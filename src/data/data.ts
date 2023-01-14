@@ -36,9 +36,9 @@ export interface IExperience {
 
 export interface ISkill {
   languages: string[];
-  frameworks: string[];
-  tools: string[];
-  devtools: string[];
+  technologies: string[];
+  toolsAndPlatforms: string[];
+  concepts: string[];
 }
 
 export interface IStudent {
@@ -134,17 +134,37 @@ const profile: IProfile = {
     "I am a dedicated full-stack developer who have gained skills in using different tech stacks such as MERN stack that helped me to gain Experience in both front-end and back-end development, learn database creation and integration, and learn the concept of rest APIs and microservices. In the DevOps section I considerable amount of experience in CI/Cd layout using GitHub workflow, circle ci, Heroku, and great experience in AWS services and Infrastructure as a code with AWS CDK.",
   ],
   skills: {
-    languages: ["Javascript, SQL, PHP, HTML, CSS, XML, YAML."],
-    frameworks: ["NextJs, React, materialUI, NodeJS, GraphQL, kotlin."],
-    tools: [
-      "Git",
-      "Postman",
-      "Chrome DevTools",
-      "AWS (S3, CloudFront, CodeCommit, lambda, APIGateway, code pipeline, AWS CDK(typescript)",
+    languages: ["javascript", "php", "sql", "html", "css", "xml", "yaml"],
+    technologies: [
+      "graphql",
+      "nextjs",
+      "react",
+      "materialui",
+      "nodejs",
       "jest",
-      "Github, GitLab, Docker unit testing with Jest,Flutter, ",
+      "docker",
+      "AWS CDK(typescript)",
+      "Flutter",
     ],
-    devtools: ["VSCode", "Visual Studio"],
+    toolsAndPlatforms: [
+      "Github",
+      "Git",
+      "gitlab",
+      "githubaction",
+      "hiroku",
+      "github",
+      "postman",
+      "aws(s3, cloudFront, CodeCommit ,lambda, APIGateway, codePipeline)",
+    ],
+    concepts: [
+      "Microservices",
+      "OOP",
+      "ata Structure & Algorithm",
+      "Distributed Systems",
+      "Continuous integration & deployment",
+      "micro front-end",
+      "Agile methodologies (Scrum, Kanban).",
+    ],
   },
   experiences: [
     {
