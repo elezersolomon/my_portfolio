@@ -1,10 +1,8 @@
 /* eslint-disable no-use-before-define */
-import {
-  AiFillLinkedin,
-} from 'react-icons/ai';
-import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
-import getProfileData, { IExperience } from '../data/data';
+import { AiFillLinkedin } from "react-icons/ai";
+import React, { useState } from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import getProfileData, { IExperience } from "../data/data";
 
 const Experience = () => {
   const profileData = getProfileData();
@@ -12,12 +10,16 @@ const Experience = () => {
   return (
     <Container className="height-60vh d-flex align-items-center">
       <Row>
-        <Col lg={2} className="main-heading"><h5 className="text-bold">Experience</h5></Col>
+        <Col lg={2} className="main-heading">
+          <h5 className="text-bold">Experience</h5>
+        </Col>
         <Col lg={2} className="main-heading">
           {profileData.experiences?.map((item, index) => (
             <button
               type="button"
-              className={`experience-nav-button ${index === selectedExperience ? 'selected' : ''}`}
+              className={`experience-nav-button ${
+                index === selectedExperience ? "selected" : ""
+              }`}
               onClick={() => {
                 updateSelectedExperience(index);
               }}
@@ -28,7 +30,10 @@ const Experience = () => {
         </Col>
         <Col lg={8} className="experience-description">
           {profileData.experiences?.map((item, index) => (
-            <ExperienceCard cardData={item} isVisible={index === selectedExperience} />
+            <ExperienceCard
+              cardData={item}
+              isVisible={index === selectedExperience}
+            />
           ))}
         </Col>
       </Row>
@@ -36,7 +41,10 @@ const Experience = () => {
   );
 };
 
-const ExperienceCard = (props:{cardData:IExperience;isVisible:boolean}) => {
+const ExperienceCard = (props: {
+  cardData: IExperience;
+  isVisible: boolean;
+}) => {
   const { cardData, isVisible } = props;
   if (!isVisible) {
     return <></>;
@@ -52,20 +60,19 @@ const ExperienceCard = (props:{cardData:IExperience;isVisible:boolean}) => {
         </span> */}
       </h5>
       <a style={{ backgroundColor: "white" }} href={cardData.website}>
-        { cardData.website ? <AiFillLinkedin color="black" size={20} /> : null}
+        {cardData.website ? <AiFillLinkedin color="black" size={20} /> : null}
       </a>
-      {cardData.startDate !== ''
-      && (
+      {cardData.startDate !== "" && (
         <p>
           {cardData.startDate}
-          {' '}
-          {cardData.endDate !== '' && ` - ${cardData.endDate}`}
+          {" "}
+          {cardData.endDate !== "" && ` - ${cardData.endDate}`}
         </p>
       )}
-      <ul className="pt-3">
-        <li>
-          {cardData.summary}
-        </li>
+      <ul>
+        {cardData.summary.map((item) => (
+          <li>{item}</li>
+        ))}
       </ul>
     </div>
   );

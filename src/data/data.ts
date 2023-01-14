@@ -30,7 +30,7 @@ export interface IExperience {
   endDate: string;
   position: string;
   startDate: string;
-  summary: string;
+  summary: string[];
   website: string;
 }
 
@@ -173,8 +173,16 @@ const profile: IProfile = {
       endDate: "Present",
       position: "Full Stack Engineer ",
       startDate: "Aug 2021",
-      summary:
-        "An e-commerce platform to enable users to use telegram bot to post, edit and delete a product for sale.\n\n• Start-up E-commerce platform development and Telegram API integration.\n• Research, proof of concept development, and requirement analysis.\n• Software and product design.\n• Frontend development with React, and micro-frontend architecture.\n• Backend development with NodeJS and microservice architecture.\n• Software Version Control with Git.\n• Project management with Github.",
+      summary: [
+        "An e-commerce platform to enable users to use telegram bot to post, edit and delete a product for sale.",
+        "● Start-up E-commerce platform development and Telegram API integration.",
+        "● Research, proof of concept development, and requirement analysis.",
+        "● Software and product design.",
+        "● Frontend development with React, and micro-frontend architecture.",
+        "● Backend development with NodeJS and microservice architecture.",
+        "● Software Version Control with Git.",
+        "● Project management with Github.",
+      ],
       website: "",
     },
     {
@@ -183,8 +191,15 @@ const profile: IProfile = {
       endDate: "march 2021",
       position: "Front-end Developer",
       startDate: "Nov 2020",
-      summary:
-        "Start-up E-commerce platform development with NextJS.● Backend application development with NodeJS, GraphQL, MySQL.",
+      summary: [
+        "● Front-end development React, React native, expo go, Axios. MUI, JWT.",
+        "● Back-end development with node.js, JWT, Nextron, PouchDB, and CouchDB.",
+        "● End-user testing",
+        "● Unit testing",
+        "● Building and preparing release versions",
+        "● Code refactor",
+        "● Project management",
+      ],
       website:
         "https://www.linkedin.com/company/hurricane-support/?originalSubdomain=et",
     },
@@ -194,8 +209,10 @@ const profile: IProfile = {
       endDate: "Sep 2020",
       position: "Full Stack Engineer",
       startDate: "Mar 2020",
-      summary:
-        "While working as an Assistant Software Engineer, my responsibilities included the Platform-independence of Reports module in cross-browser environments by converting ASP Classic pages to ASP .NET Web Forms & VB Scripts to JavaScript/JQuery.",
+      summary: [
+        "● Start-up E-commerce platform development with NextJS",
+        "● Backend application development with NodeJS, GraphQL, MySQL.",
+      ],
       website: "",
     },
   ],
