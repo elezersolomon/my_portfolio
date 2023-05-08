@@ -237,7 +237,7 @@ const profile: IProfile = {
       companyName: "",
       url: "https://t.me/ChiricharoBot",
       description: [
-        "<p style='background-color:tomato;'>This is a paragraph.</p>",
+        "still in development",
         "An e-commerce platform to enable users to use telegram bot to post, edit and delete a product for sale",
         "Still in production",
       ],
@@ -270,7 +270,7 @@ const profile: IProfile = {
       url: "",
       description: [
         "A web application that enables a hospital to Register patients, Present information for patients, Receive a request from a patient, Follow up on patient, Receive payment from patients, and Que patents.",
-        "Still in production",
+        "still in development",
       ],
       tags: ["ReactJS", "MaterialUI", "GraphQL", "NodeJS", "Express", "JWT"],
     },
