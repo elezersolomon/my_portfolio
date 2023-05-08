@@ -235,8 +235,9 @@ const profile: IProfile = {
       name: "Telegram Ecommerce Bot",
       imageUrl: tlgrmProjectBackGround,
       companyName: "",
-      url: "",
+      url: "https://t.me/ChiricharoBot",
       description: [
+        "<p style='background-color:tomato;'>This is a paragraph.</p>",
         "An e-commerce platform to enable users to use telegram bot to post, edit and delete a product for sale",
         "Still in production",
       ],
