@@ -239,7 +239,6 @@ const profile: IProfile = {
       description: [
         "still in development",
         "An e-commerce platform to enable users to use telegram bot to post, edit and delete a product for sale",
-        "Still in production",
       ],
       tags: ["Telegraph", "typescript", "AWS CDK"],
     },
@@ -291,6 +290,17 @@ const profile: IProfile = {
         "Express",
         "spcex rockets API",
       ],
+    },
+    {
+      name: "quize_app",
+      imageUrl: "",
+      companyName: "",
+      url: "https://github.com/elezersolomon/quize_app",
+      description: [
+        "still in development",
+        "a multi platform app that enables users to answer questions get score, choose question types",
+      ],
+      tags: ["flutter"],
     },
   ],
   goodByeText: "",
