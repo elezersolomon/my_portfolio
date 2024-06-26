@@ -231,7 +231,7 @@ const profile: IProfile = {
     },
   ],
   projects: [
-        {
+    {
       name: "VisionFundChatBot",
       imageUrl: tlgrmProjectBackGround,
       companyName: "VisionFund Microfinance",
