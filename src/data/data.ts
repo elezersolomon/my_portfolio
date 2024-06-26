@@ -249,7 +249,7 @@ const profile: IProfile = {
       url: "",
       description: [
         "A desktop and mobile application that enables assignment, delegation, completion, approval, and overall management of a task depending on the hierarchy and position of employees in the company.",
-        "Still in production",
+        "Still in development",
       ],
       tags: [
         "ReactJS",
