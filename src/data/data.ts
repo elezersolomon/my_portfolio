@@ -231,6 +231,16 @@ const profile: IProfile = {
     },
   ],
   projects: [
+        {
+      name: "VisionFundChatBot",
+      imageUrl: tlgrmProjectBackGround,
+      companyName: "VisionFund Microfinance",
+      url: "https://t.me/VisionFundChatbot",
+      description: [
+        "a telegram bot to enable customers to use vision fund services trough telegram application",
+      ],
+      tags: ["Telegraf", "typescript","postgress"],
+    },
     {
       name: "Telegram Ecommerce Bot",
       imageUrl: tlgrmProjectBackGround,
@@ -240,7 +250,7 @@ const profile: IProfile = {
         "still in development",
         "An e-commerce platform to enable users to use telegram bot to post, edit and delete a product for sale",
       ],
-      tags: ["Telegraph", "typescript", "AWS CDK"],
+      tags: ["Telegraf", "typescript", "AWS CDK"],
     },
     {
       name: "Metro task management ",
