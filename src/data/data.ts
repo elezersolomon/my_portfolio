@@ -239,7 +239,7 @@ const profile: IProfile = {
       description: [
         "a telegram bot to enable customers to use vision fund services trough telegram application",
       ],
-      tags: ["Telegraf", "typescript","postgress"],
+      tags: ["Telegraf", "typescript", "postgress"],
     },
     {
       name: "Telegram Ecommerce Bot",
