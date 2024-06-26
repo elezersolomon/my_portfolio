@@ -137,8 +137,8 @@ const profile: IProfile = {
     languages: ["javascript", "php", "sql", "html", "css", "xml", "yaml"],
     technologies: [
       "graphql",
-      "nextjs",
-      "react",
+      "nextJS",
+      "reactJS",
       "materialui",
       "nodejs",
       "jest",
